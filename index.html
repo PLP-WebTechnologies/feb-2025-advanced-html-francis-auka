@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <h2>Roman Numerals List</h2>
+        <ol type="I">
+            <li>First item</li>
+            <li>Second item</li>
+            <li>Third item</li>
+            <li>Fourth Item</li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>External Image</h2>
+        <img src="https://images.pexels.com/photos/31416362/pexels-photo-31416362/free-photo-of-dusk-skyline-of-minato-city-tokyo.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="City landscape" width="500" >
+    </section>
+
+    <section>
+        <h2>Contact List</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Francis Auka</td>
+                    <td>Nairobi, Kenya</td>
+                    <td>+254712345678</td>
+                    <td>francisauka@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>James Ali</td>
+                    <td>Mombasa, Kenya</td>
+                    <td>+254795544180</td>
+                    <td>alijames@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Moses otieno</td>
+                    <td>Nairobi, Kenya</td>
+                    <td>+254712364678</td>
+                    <td>mosesotiebo@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>lilian atieno</td>
+                    <td>Nairobi, Kenya</td>
+                    <td>+254712345777</td>
+                    <td>atienolilian@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>judy owiti</td>
+                    <td>Nairobi, Kenya</td>
+                    <td>+254711354478</td>
+                    <td>judyowiti@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Registration Form</h2>
+        <form action="#" method="post">
+            <label for="name">Name: </label>
+            <input
+             type="text"
+             id="name"
+             name="name"
+             placeholder="Enter your name"
+             required
+             />
+
+             <label for="email">Email: </label>
+             <input 
+             type="email"
+             id="email"
+             name="email"
+             placeholder="Enter your email"
+             required
+             />
+
+             <label for="password">Password:</label>
+             <input
+             type="password"
+             id="password"
+             name="password"
+             placeholder="create a strong password"
+             minlength="6"
+             required
+             />
+
+             <label for="course">Select Course</label>
+             <select name="course" id="course">
+                <option value="">--select--</option>
+                <option value="cloud">Cloud Computing</option>
+                <option value="security">Information Security</option>
+                <option value="ai">Artificial Intelligence</option>
+             </select>
+
+             <button type="submit">Register</button>
+        </form>
+    </section>
+</body>
+</html>
